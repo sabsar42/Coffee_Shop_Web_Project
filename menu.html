@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strait Coffee - Menu</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav {
+            background-color: #666;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav ul li a:hover {
+            color: #ccc;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .menu-item {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+            transition: background-color 0.3s ease-in-out;
+            display: flex;
+            align-items: center;
+        }
+
+        .menu-item:hover {
+            background-color: #eee;
+        }
+
+        .menu-item img {
+            margin-right: 15px;
+            max-width: 50px; /* Adjust image size */
+            height: auto;
+            filter: grayscale(100%); /* Make images grey */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Strait Coffee</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="menu.html">MENU</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Menu</h2>
+        <div class="menu-item">
+            <img src="images\espresso.jpg" alt="Espresso">
+            <h3>Espresso</h3>
+        </div>
+
+        <div class="menu-item">
+            <img src="images\cap.jpg" alt="Cappuccino">
+            <h3>Cappuccino</h3>
+        </div>
+
+        <div class="menu-item">
+            <img src="images\mocha.jpg" alt="Mocha">
+            <h3>Mocha</h3>
+        </div>
+    </main>
+
+    <footer>
+        <p>Created by Avishek</p>
+    </footer>
+</body>
+
+</html>

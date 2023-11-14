@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strait Coffee - Welcome</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+      body {
+          transition: transform 0.5s ease-in-out;
+      }
+
+      .zoomed {
+          transform: scale(1.5);
+          transition: transform 0.5s ease-in-out; 
+      }
+
+      .featureimg {
+          transition: transform 0.5s ease-in-out; 
+      }
+  </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo2.png" alt="Strait Coffee logo">
+        <h1>Strait Coffee</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="menu.html">menu</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <figure><img class="featureimg" id="zoomImage" src="images/barista.jpg" alt="barista pouring coffee"></figure>
+        </section>
+        <section>
+            <p>Once upon a time in 1996 we opened a small café and roastery. After many years of serving our fine coffees from around the world...we grew out of our small space and we realized we needed more room with which to bake, and cook and serve our many loyal and new customers.</p>
+            <p>After a few diversions, illusions, and contusions, we acquired our larger space on the corner of Wilson Creek Plaza. Our café features all the coffees that we roast. We serve amazing fresh, made-to-order food, and delicious baked goods, made from scratch.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Created by Avishek</p>
+    </footer>
+
+    <script>
+        var zoomImage = document.getElementById('zoomImage');
+
+        zoomImage.addEventListener('click', function () {
+            zoomImage.classList.toggle('zoomed');
+        });
+    </script>
+</body>
+
+</html>

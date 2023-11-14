@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Strait Coffee - Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo2.png" alt="Strait Coffee logo">
+        <h1>Strait Coffee</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="menu.html">menu</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="contact-form">
+            <form action="submit_form.php" method="post">
+                <h2>Contact Us</h2>
+                <label for="firstName">First Name:</label>
+                <br>
+                <input type="text" id="firstName" name="firstName" required>
+
+                <br> 
+                <label for="lastName">Last Name:</label>
+                <br>
+                <input type="text" id="lastName" name="lastName" required>
+                <br>
+                <p>Which is your favorite store in town?</p>
+                <div class="bullet-selection">
+                    <label><input type="radio" id="vancouver" name="favoriteStore" value="vancouver"> Vancouver</label><br>
+                    <label><input type="radio" id="surrey" name="favoriteStore" value="surrey"> Surrey</label><br>
+                    <label><input type="radio" id="richmond" name="favoriteStore" value="richmond"> Richmond</label><br>
+                </div>
+                <br>
+                <label for="question">Question ?</label>
+                <textarea id="question" name="question" rows="10" cols="50" placeholder="Tell us about it..."></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <section class="video-description">
+            <video width="400" height="250" controls>
+                <source src="images/mixkit-latte-art-810_1.mp4" type="video/mp4">
+               
+            </video>
+            <audio controls>
+                <source src="images\mixkit-latte-art-810_1.ogg" type="audio/ogg">
+              
+            </audio>
+
+            <p>Artisan coffee, a sensory journey crafted with precision and passion, transcends the ordinary coffee experience. From the meticulous selection of ethically sourced beans to the expert roasting process, each cup is a masterpiece. Artisanal roasters, often considered coffee alchemists, elevate the brew to an art form. The aroma, a symphony of notes, beckons connoisseurs into a world of rich flavors and nuanced textures. Every sip unveils a narrative, a story told by the hands that nurtured the beans. It's a celebration of craftsmanship, a dedication to quality that transforms a simple beverage into a profound and delightful ritual..</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by Avishek</p>
+
+    </footer>
+</body>
+
+</html>
