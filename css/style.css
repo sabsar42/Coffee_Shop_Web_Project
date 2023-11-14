@@ -10,7 +10,7 @@ Brown: #4C3639
 
 body {
   margin:0;
-  background-color: #EBEBE0;
+  background-color: #cacaa9;
 }
 
 header {
@@ -21,7 +21,7 @@ header {
 main {
   width:70%;
   margin:30px auto;
-  background-color: #C5BCAB;
+  background-color: #0b88dc;
   padding:30px;
 }
 
@@ -35,7 +35,7 @@ section {
   width: 50%;
   margin: 10px;
   padding: 20px;
-  border: 1px solid black;
+  border: 1px solid rgb(58, 48, 48);
 }
 
 .featureimg {
@@ -70,7 +70,7 @@ nav {
   width:100%;
   padding:10px;
   text-align: center;
-  background-color: #63B4C9;
+  background-color: #c98763;
 }
 
 
